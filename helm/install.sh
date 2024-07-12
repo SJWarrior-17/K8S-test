@@ -11,3 +11,5 @@ mv linux-amd64/helm /usr/local/bin/helm
 echo -e "\n"
 echo "Testing helm"
 helm help
+echo "helm bitnami repo add"
+helm repo add bitnami https://charts.bitnami.com/bitnami
