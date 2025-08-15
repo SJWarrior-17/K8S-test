@@ -33,7 +33,8 @@ kubectl create -f ./questions/Q12.yml
 
 echo -e "\n"
 echo "Deploying Q13 resources"
+cp ./questions/mariadb-deploy.yaml ~/mariadb-deploy.yaml 
 echo "Create a directory in node2 and run the command in node"
-echo "Commnad: mkdir -p /mnt/disks/ssd1"
+echo "Command: mkdir -p /mnt/disks/ssd1"
 sleep 30
 kubectl create -f ./questions/Q13.yml
